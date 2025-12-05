@@ -1,0 +1,9 @@
+spring:
+  mongodb:
+    client:
+      uri: mongodb://localhost:27017/fitness_activity
+server:
+  port: 8082
+#logging:
+#  level:
+#    root: DEBUG
