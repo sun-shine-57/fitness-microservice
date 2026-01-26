@@ -1,9 +1,8 @@
 spring:
-  mongodb:
-    client:
-      uri: mongodb://localhost:27017/fitness_activity
-server:
-  port: 8082
-#logging:
-#  level:
-#    root: DEBUG
+  application:
+    name: activity-service
+  config:
+    import: optional:configserver:http://localhost:8888
+#  mongodb:
+#    client:
+#      uri: mongodb://localhost:27017/fitness_activity
