@@ -17,7 +17,7 @@ public class RecommendationService {
         return recommendationRepository.findByUserId(userId);
     }
 
-    public @Nullable Recommendation getActivityRecommendation(String activityId) {
+    public Recommendation getActivityRecommendation(String activityId) {
         return recommendationRepository.findByActivityId(activityId)
                 .orElseThrow(() -> new RuntimeException("No Recommendation found for this activity: " + activityId));
     }

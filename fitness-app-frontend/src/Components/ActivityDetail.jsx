@@ -28,7 +28,7 @@ const ActivityDetail = () => {
 
   return (
     <Box sx={{ maxWidth: 800, mx: 'auto', p: 2 }}>
-            <Card sx={{ mb: 2 }}>
+            {/* <Card sx={{ mb: 2 }}>
               <CardContent>
                 <Typography variant='h5' gutterBottom>Activity Details</Typography>
                 <Typography>Type: {activity.type}</Typography>
@@ -36,7 +36,7 @@ const ActivityDetail = () => {
                 <Typography>Calories Burned: {activity.caloriesBurned}</Typography>
                 <Typography>Date: {new Date(activity.createdAt).toLocaleString()}</Typography>
               </CardContent>
-            </Card>
+            </Card> */}
 
             {recommendation && (
                 <Card>
