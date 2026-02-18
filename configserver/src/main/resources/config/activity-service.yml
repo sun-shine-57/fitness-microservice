@@ -1,23 +1,16 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://localhost:27017
+      uri: ${MONGO_URI}
       database: fitness_activity
   rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
+    host: ${RABBITMQ_HOST}
+    port: ${RABBITMQ_PORT:5672}
+    username: ${RABBITMQ_USER}
+    password: ${RABBITMQ_PASSWORD}
 
 server:
-  port: 8082
-
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
-  instance:
-    prefer-ip-address: true
+  port: ${PORT:8080}
 
 rabbitmq:
   exchange:

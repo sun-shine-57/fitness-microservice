@@ -2,7 +2,7 @@ spring:
   application:
     name: ai-service
   config:
-    import: optional:configserver:http://localhost:8888
+    import: optional:configserver:${CONFIG_SERVER_URL}
 #  mongodb:
 #    client:
 #      uri: mongodb://localhost:27017

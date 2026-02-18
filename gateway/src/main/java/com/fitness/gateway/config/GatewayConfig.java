@@ -10,22 +10,22 @@ public class GatewayConfig {
 
     @Bean
     public RouteLocator customRouteLocator(RouteLocatorBuilder builder) {
+        return builder.routes()
+                .route("user-service", r -> r
+                        .path("/api/users/**")
+                        .uri("http://userservice.internal"))
+                .build();
+
 //        return builder.routes()
 //                .route("user-service", r -> r
 //                        .path("/api/users/**")
 //                        .uri("lb://USER-SERVICE"))
+//                .route("activity-service", r -> r
+//                        .path("/api/activities/**")
+//                        .uri("lb://ACTIVITY-SERVICE"))
+//                .route("other-service", r -> r
+//                        .path("/api/recommendations/**")
+//                        .uri("lb://AI-SERVICE"))
 //                .build();
-
-        return builder.routes()
-                .route("user-service", r -> r
-                        .path("/api/users/**")
-                        .uri("lb://USER-SERVICE"))
-                .route("activity-service", r -> r
-                        .path("/api/activities/**")
-                        .uri("lb://ACTIVITY-SERVICE"))
-                .route("other-service", r -> r
-                        .path("/api/recommendations/**")
-                        .uri("lb://AI-SERVICE"))
-                .build();
     }
 }
