@@ -8,6 +8,11 @@ spring:
 server:
   port: ${PORT:8080}
 
+services:
+  user-service-url: ${USER_SERVICE_URL}
+  activity-service-url: ${ACTIVITY_SERVICE_URL}
+  ai-service-url: ${AI_SERVICE_URL}
+
 logging:
   level:
     org.springframework.boot.autoconfigure: DEBUG

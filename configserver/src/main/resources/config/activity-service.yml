@@ -12,6 +12,9 @@ spring:
 server:
   port: ${PORT:8080}
 
+services:
+  user-service-url: ${USER_SERVICE_URL}
+
 rabbitmq:
   exchange:
     name: fitness.exchange
