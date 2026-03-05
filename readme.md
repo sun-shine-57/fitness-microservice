@@ -1,12 +1,30 @@
-
-# 🏋️ Fitness Microservices Platform (Cloud-Native)
+ # 🏋️ Fitness Microservices Platform (Cloud-Native)
+![Java](https://img.shields.io/badge/Java-SpringBoot-green)
+![React](https://img.shields.io/badge/Frontend-React-blue)
+![Cloud](https://img.shields.io/badge/Cloud-GCP-orange)
+![Architecture](https://img.shields.io/badge/Architecture-Microservices-purple)
 
 ## 🚀 Live Application
 
 🌐 Frontend: [https://fitness-app-2dc80.web.app](https://fitness-app-2dc80.web.app)
 
----
+Google Cloud was used for deploying backend services and infrastructure components.
 
+Deployment steps and commands are documented here:
+
+docs/deployment-guide.md
+
+---
+## 🎬 Application Demo
+
+![App Demo](/assets/app-demo.gif)
+
+## 🎥 Deployment Demo
+
+Watch full deployment demo here:
+[Demo Video Link]
+
+---
 ## 📌 Overview
 
 This project is a fully cloud-deployed **Fitness Tracking & AI Recommendation Platform** built using a distributed microservices architecture.
@@ -166,6 +184,7 @@ Integrated with:
 * Google Cloud Run
 * GCP VM
 * Firebase Hosting
+
 
 ---
 
