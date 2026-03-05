@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = 'http://localhost:8080/api/';
+const API_URL = 'https://api-gateway-361654592537.asia-south1.run.app/api/';
 
 const api = axios.create({
     baseURL:API_URL
