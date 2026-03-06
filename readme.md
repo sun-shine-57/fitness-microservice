@@ -24,7 +24,7 @@ docs/deployment-guide.md
 ![Deployment Demo](/assets/deployment-demo.gif)
 
 Watch full deployment demo here:
-[Demo Video Link]
+[Full Video Link](https://youtu.be/mjVjbt7Dz1A)
 
 ---
 ## 📌 Overview
@@ -239,3 +239,10 @@ Integrated with:
 * Kubernetes deployment
 
 ---
+
+## Acknowledgements
+
+This project was inspired by the tutorial created by @EmbarkX
+
+Original tutorial:
+[YouTube link](https://www.youtube.com/watch?v=_FdKTSFnWeg&t=12625s)
