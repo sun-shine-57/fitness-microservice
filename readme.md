@@ -21,6 +21,8 @@ docs/deployment-guide.md
 
 ## 🎥 Deployment Demo
 
+![Deployment Demo](/assets/deployment-demo.gif)
+
 Watch full deployment demo here:
 [Demo Video Link]
 
